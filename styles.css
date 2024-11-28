@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  background: blue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  background-color: orange;
+  color: blue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#participants {
+  margin-top: 10px;
+}
+
+.participant {
+  display: flex;
+  gap: 10px;
+}
+
+.participant input {
+  flex: 1;
+}
+
+input.participant-amount {
+  display: none;
+}
